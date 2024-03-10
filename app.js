@@ -3,7 +3,7 @@ let titulo = document.querySelector('h1');
 titulo.innerHTML = 'Hora del Desafío'
 
 let parrafo = document.querySelector('p');
-parrafo.innerHTML = 'Elige el número "que te de la gana" del 1 al 10'
+parrafo.innerHTML = 'Elige el número del 1 al 10'
 
 Para comparar que tipo de dato vota las variables:
 console.log(typeof(numeroDeUsuario));
