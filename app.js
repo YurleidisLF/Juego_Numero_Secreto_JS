@@ -78,7 +78,7 @@ function limpiarCaja() {
 
 function condicionesIniciales(){
     asignarTextoElemento('h1', '¡Juego del adivinador!');
-    asignarTextoElemento('p', `Elige el número "que te de la gana" del 1 al ${numeroMaximo}:`);
+    asignarTextoElemento('p', `Elige un número del 1 al ${numeroMaximo}:`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
 }
